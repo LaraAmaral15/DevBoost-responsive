@@ -1,0 +1,213 @@
+@media (max-width: 420px)  {
+
+  .container-main{
+  margin: 0;
+  }
+
+  header{
+    margin: 0 0 5% 0;
+    width: 100%;
+  }
+
+  .menu-drop{
+    display: none;
+  }
+
+  #link-header:hover {
+    background: none;
+    padding-bottom: 0px;
+  }
+
+  #button-header{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF;
+    background: none;
+    border-radius: 0px;
+    padding: 12px 0;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+  }
+
+  #button-header:hover{
+    background: none;
+  }
+
+  #home-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  #text-home {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 358px;
+  height: 111px;
+  margin-top: 5%;
+  margin-left: 4%;
+  }
+
+  #text-home h1{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--color-white);
+  }
+
+  #text-home p{
+  font-family: 'Inter';
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  }
+
+  #text-home button{
+   display: block;
+   margin: 0 auto;
+  }
+
+  #home-2 img{
+    position: relative;
+    margin-top: 50%;
+    width: 365px;
+    height: 300px;
+    margin-bottom: 10%;
+  }
+
+  #section-solutions{
+    margin: 10% 0;
+  }
+
+  #set-cards-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 10%;
+  }
+
+  #items-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    }
+
+  #text-about {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-bottom: 20%;
+  }
+
+  #text-about h2 {
+    display: block;
+    margin: 0 auto;
+    font-size: 29px;
+  }
+
+  #text-about p{
+    display: block;
+    margin: 0 auto;
+    width: 358px;
+  }
+
+  #text-about button{
+     display: block;
+     margin: 0 auto;
+  }
+
+  #image-video img{
+    display: flex;
+    justify-content: center;
+    width: 358px;
+    height: 197.59px;
+    margin-bottom: 15%;
+  }
+
+  #detail-video{
+  position: absolute;
+  margin-top: 56%;
+  right: 4%;
+  z-index: 0;
+  }
+
+  #set-testimonies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10%;
+  gap: 5%;
+  }
+
+  .text-testimonies img {
+    width: 30px;
+    height: 23px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .text-testimonies p {
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .people-testimonies img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 22%;
+    bottom: 8px;
+  }
+
+  .people-testimonies p {
+    padding: 0;
+   text-align: center;
+  }
+
+  #margin{
+    margin: 15% 0;
+    width: 358px;
+    display: block;
+  }
+
+  #items-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin: 0 5%;
+  }
+
+  #icons-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+  }
+
+  .text-footer{
+    margin: 0 0 0 6%;
+    font-size: 14px;
+    }
+
+  #copyright {
+    margin: 4% 5% 0 5%;
+  }  
+}

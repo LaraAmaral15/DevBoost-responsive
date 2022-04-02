@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Inter:wght@400;500&family=Ubuntu:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+}
+
+:root{
+  --color-bg-primary: linear-gradient(180deg, #040926 -6.13%, rgba(153, 7, 204, .24) 124.8%);
+  --color-secundary-light: #040926;
+  --color-white: #FFF;
+}
+
+#content{
+  background-color: var(--color-secundary-light);
+}
+
+/* cabeçalho */
+
+header{
+  margin: 3% 0 5% 0;
+}
+
+#link-header{
+  color: var(--color-white);
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 12px;
+}
+
+#link-header:hover {
+   background: url(rectangle.png) no-repeat center bottom;
+    padding-bottom: 6px;
+}
+
+#button-header{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--color-white);
+  background-color:  #9907CC;
+  border-radius: 38px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+}
+
+#button-header:hover {
+  background-color:  #6e0794;
+}
+
+.navbar-toggler-icon{
+ background-image: url(menu.png);
+}
+
+/* drop menu */
+.menu-drop{
+  display: inline-block;
+  position: relative;
+}
+
+#images-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#images-menu :nth-child(2) {
+  width: 12px;
+  height: 6px;
+}
+
+.drop-content{
+  font-family: 'Inter';
+  display: none;
+  background-color: #2e2e2e;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.drop-content a{
+  color: var(--color-white);
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-content a:hover{
+  background-color: #353333;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+
+.menu-drop:hover .drop-content{
+  display: block;
+}
+
+#link-drop {
+  color: var(--color-white);
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 12px;
+}
+
+/* section-home */
+
+#home{
+  background: var(--color-bg-primary);
+}
+
+#home-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 3.5%;
+}
+
+#text-home {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 448px;
+  height: 111px;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+#text-home h1{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color-white);
+}
+
+#text-home span{
+  color: #9907CC;
+}
+
+#text-home p{
+  font-family: 'Inter';
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+#text-home button{
+  font-family: 'Inter';
+  background-color: #9907CC;
+  color: var(--color-white);
+  border: none;
+  border-radius: 38px;
+  width: 139px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+#text-home button:hover {
+    background-color:  #6e0794;
+}
+
+/* fim section-home */
+
+.container-main{
+  margin: 0 10%;
+}
+
+/*  section-soluções */
+
+#section-solutions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.text-title-section{
+  font-family: 'Inter';
+  color: #9907CC;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 4px;
+}
+
+.title-section{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: var(--color-white);
+  padding-bottom: 10%;
+  line-height: 40px;
+}  
+
+#set-cards-solutions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 45px;
+  padding-bottom: 10%;
+}
+
+.cards-solucoes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#icons-card-1 {
+  width: 65px;
+  height: 72px;
+  background: rgba(153, 7, 204, 0.1);
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+#icons-card-2 {
+  width: 80px;
+  height: 80px;
+  background: rgba(153, 7, 204, 0.1);
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+#icons-card-3 {
+  width: 70px;
+  height: 72px;
+  background: rgba(153, 7, 204, 0.1);
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.cards-solucoes h3{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--color-white);
+  width: 328px;
+  text-align: center;
+}
+
+.cards-solucoes p{
+  font-family: 'Inter';
+  color: var(--color-white);
+  width: 336px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cards-solucoes button {
+  font-family: 'Inter';
+  font-size: 16px;
+  background-color: #9907CC;
+  color: var(--color-white);
+  border: none;
+  border-radius: 38px;
+  width: 139px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cards-solucoes button:hover{
+   background-color:  #6e0794;
+}
+
+/* Section-about */
+
+#section-about {
+  background: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 182.37%);
+}
+
+#items-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7% 5%
+}
+
+#text-about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#text-about h2{
+  font-family: 'Ubuntu';
+  width: 247px;
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#text-about p {
+  font-family: 'Inter';
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  width: 449px;
+}
+
+#text-about button{
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-white);
+  color: #670894;
+  border: none;
+  border-radius: 38px;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#text-about button:hover{
+  background-color: rgb(179, 168, 168);
+}
+
+#image-video{
+  z-index: 1;
+}
+
+#detail-video{
+  position: absolute;
+  margin-top: 10%;
+  right: 7%;
+  z-index: 0;
+}
+
+/* section-testimonies */
+
+#section-testimonies{
+  padding: 4%;
+}
+
+#set-testimonies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3%;
+  gap: 5%;
+}
+
+.text-testimonies {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-testimonies img {
+  width: 30px;
+  height: 23px;
+  margin-top: 10px;
+}
+
+.text-testimonies p {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 488px;
+  color: var(--color-white);
+} 
+
+.people-testimonies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.people-testimonies img {
+  width: 45px;
+  height: 45px;
+}
+
+.people-testimonies p{
+  font-family: 'Inter';
+  padding: 18px 0 0 10px;
+  color: #9907CC;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.people-testimonies span {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#margin{
+  display: none;
+}
+
+/* footer */
+
+footer {
+  background: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 107.73%);
+}
+
+#items-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  border-bottom:1px dashed rgba(255, 255, 255, 0.3);
+}
+
+#icons-footer{
+  display: flex;
+  flex-direction: column;
+  width: 203px;
+  height: 35px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+#icons-footer :nth-child(1) {
+  width: 150px;
+  height: 30px;
+}
+
+#set-text-footer{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-white);
+  width: 200px;
+  margin: 0 50px;
+  
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.icon-text-footer{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.icon-text-footer img {
+  width: 17px;
+  height: 20px;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  color: #FFF;
+  margin-top: 2%;
+  padding: 2px;
+  cursor: context-menu;
+}
+
+#copyright img {
+  width: 24px;
+  height: 24px;
+
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 1.5%;
+}
+
